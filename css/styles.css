@@ -702,9 +702,6 @@ header {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-img {
-}
-
 img {
   display: block;
   max-width: 100%;
