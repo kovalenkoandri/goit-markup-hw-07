@@ -26,15 +26,13 @@
           >
           <ul class="header__menu">
             <li class="header__li">
-              <a href="./index.html" class="header__current">Студия</a>
+              <a href="./index.html" class="header__current header__current--color">Студия</a>
             </li>
             <li class="header__li">
-              <a href="./portfolio.html" class="header__current header__current--inverse"
-                >Портфолио</a
-              >
+              <a href="./portfolio.html" class="header__current">Портфолио</a>
             </li>
             <li class="header__li">
-              <a href="" class="header__current header__current--inverse">Контакты</a>
+              <a href="" class="header__current">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -57,63 +55,63 @@
       </div>
     </header>
     <main>
-      <section class="bg-order-service">
+      <section class="order">
         <div class="container">
-          <h1 class="index-h1">
+          <h1 class="order__h1">
             Эффективные решения
-            <span class="index-h1-span">для вашего бизнеса</span>
+            <span class="order__h1--span">для вашего бизнеса</span>
           </h1>
-          <button type="button" class="button-order-service" data-modal-open>
-            Заказать услугу
-          </button>
-          <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-              <button type="button" data-modal-close class="data-modal-close">
-                <svg class="icon-close-svg"><use href="./images/icons.svg#icon-close11"></use></svg>
+          <button type="button" class="order__button" data-modal-open>Заказать услугу</button>
+          <div class="order__backdrop order__backdrop--is-hidden" data-modal>
+            <div class="order__modal">
+              <button type="button" data-modal-close class="order__close">
+                <svg class="order__close-svg">
+                  <use href="./images/icons.svg#icon-close11"></use>
+                </svg>
               </button>
-              <p class="modal-p">Оставьте свои данные, мы вам перезвоним</p>
-              <form name="form-signup" autocomplete="on" novalidate class="signup">
-                <label for="name" class="label">Имя</label>
-                <div class="input-pos-div">
-                  <input type="text" id="name" class="input" placeholder=" " autofocus />
-                  <svg class="pos-svg name">
+              <p class="order__p">Оставьте свои данные, мы вам перезвоним</p>
+              <form autocomplete="on" novalidate class="order__form">
+                <label for="name" class="order__label">Имя</label>
+                <div class="order__input--position">
+                  <input type="text" id="name" class="order__input" placeholder=" " autofocus />
+                  <svg class="order__svg order__svg--name">
                     <use href="./images/icons.svg#icon-name12-12"></use>
                   </svg>
                 </div>
-                <label for="tel" class="label">Телефон</label>
-                <div class="input-pos-div">
-                  <input type="tel" name="tel" id="tel" class="input" placeholder=" " />
-                  <svg class="pos-svg tel">
+                <label for="tel" class="order__label">Телефон</label>
+                <div class="order__input--position">
+                  <input type="tel" id="tel" class="order__input" placeholder=" " />
+                  <svg class="order__svg order__svg--tel">
                     <use href="./images/icons.svg#icon-tel13-13"></use>
                   </svg>
                 </div>
-                <label for="email" class="label">Почта</label>
-                <div class="input-pos-div">
-                  <input type="email" name="email" id="email" class="input" placeholder=" " />
-                  <svg class="pos-svg email">
+                <label for="email" class="order__label">Почта</label>
+                <div class="order__input--position">
+                  <input type="email" id="email" class="order__input" placeholder=" " />
+                  <svg class="order__svg order__svg--email">
                     <use href="./images/icons.svg#icon-mail15-12"></use>
                   </svg>
                 </div>
-                <label for="comment" class="label">Комментарий</label>
+                <label for="comment" class="order__label">Комментарий</label>
                 <textarea
                   rows="5"
                   placeholder="Введите текст"
                   id="comment"
-                  class="comment"
+                  class="order__comment"
                 ></textarea>
-                <div class="checkbox-div">
+                <div class="order__checkbox--position">
                   <label
-                    ><input type="checkbox" class="checkbox visually-hidden" />
-                    <svg class="checkbox-custom-svg">
+                    ><input type="checkbox" class="order__checkbox visually-hidden" />
+                    <svg class="order__checkbox--custom">
                       <use href="./images/icons.svg#icon-check16-15"></use>
                     </svg>
                   </label>
-                  <span class="checkbox-span"
+                  <span class="order__span"
                     >Соглашаюсь с рассылкой и принимаю
-                    <span class="checkbox-span-within">Условия договора</span></span
+                    <span class="order__span--color">Условия договора</span></span
                   >
                 </div>
-                <button type="submit" class="modal-submit">Отправить</button>
+                <button type="submit" class="order__submit">Отправить</button>
               </form>
             </div>
           </div>
