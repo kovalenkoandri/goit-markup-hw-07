@@ -1,13 +1,13 @@
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
 
-.section--padding {
+&--padding {
   padding-top: 94px;
   padding-bottom: 0;
-}
+                  }
 
-.section--color {
+&--color {
   background-color: #f5f4fa;
-}
+                }
+         }

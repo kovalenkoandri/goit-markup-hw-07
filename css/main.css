@@ -293,6 +293,12 @@ ul {
   padding: 0;
 }
 
+body {
+  color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+  font-family: var(--font-body);
+}
+
 .header {
   border-bottom: 1px solid #ececec;
   padding: 25px 0;
@@ -386,8 +392,7 @@ ul {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header__href:hover,
-.header__href:focus {
+.header__href:hover, .header__href:focus {
   color: var(--accent-color);
 }
 
@@ -427,12 +432,6 @@ ul {
 
 .logo--inverse {
   color: #fff;
-}
-
-body {
-  color: var(--primary-text-color);
-  letter-spacing: 0.03em;
-  font-family: var(--font-body);
 }
 
 .section {
@@ -554,8 +553,7 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.order__close:hover,
-.order__close:focus {
+.order__close:hover, .order__close:focus {
   color: var(--accent-color);
 }
 
@@ -689,8 +687,7 @@ body {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.order__input:focus,
-.order__comment:focus {
+.order__input:focus, .order__comment:focus {
   border: 1px solid var(--accent-color);
 }
 
