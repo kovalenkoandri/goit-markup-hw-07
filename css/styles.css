@@ -40,9 +40,7 @@ body {
   padding-right: 15px;
 }
 
-.list {
-  list-style: none;
-}
+
 
 .section {
   padding-top: 94px;
@@ -791,6 +789,10 @@ body {
 
 .footer__p {
   margin-bottom: 9px;
+}
+
+.footer__list {
+  list-style: none;
 }
 
 .footer__item:not(:last-child) {

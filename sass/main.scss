@@ -1,20 +1,17 @@
-// @import url(./utils/_variables.scss);
-// @import url(./base/_normalize.scss);
-// @import url(./components/_page_header.scss);
-// @import './components/logo';
-label {
-span {
-  color: #888;
-      }
-    }
-label {
-&:focus-within {span{
-  color: green;}
-}
-}
-label span {
-  color: #888;
-}
-label:focus-within span {
-  color: green;
-}
+@import './utils/variables';
+@import './base/normalize';
+@import './components/visually-hidden';
+@import './components/common/reset';
+@import './components/header';
+@import './components/logo';
+@import './components/common/body';
+@import './components/common/section';
+@import './components/common/container';
+@import './components/order';
+@import './components/features';
+@import './components/we-do';
+@import './components/team';
+@import './components/clients';
+@import './components/buttons';
+@import './components/portfolio';
+@import './components/footer';
